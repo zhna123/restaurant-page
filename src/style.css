@@ -1,0 +1,161 @@
+* {
+    font-family: 'Oriya MN', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#content {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.header {
+    width: 100%;
+    height: 150px;
+
+    background: #C79483 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.logo {
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 20px;
+    margin-left: 20px;
+    content: url('./logo.png');
+    width: 80px;
+}
+
+.logo .title {
+    padding: 20px;
+    word-spacing: 9999rem;
+    color: #FFC543;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+div.tab {
+    width: calc(100%/3);
+    height: 35%;
+
+    margin-top: auto;
+    margin-bottom: -2px;
+    border: 1px solid #FFC543;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab button {
+    width: calc(100%/3);
+    height: 100%;
+    border: 1px solid #FFC543;
+
+    font-size: 18px;
+    color: #707070;
+    background: transparent;
+
+    overflow: hidden;
+}
+
+.tab button:hover {
+    background-color: rgb(243, 219, 167);
+}
+
+.tab button.active {
+    background-color: #FFC543;
+}
+
+.tab_content_empty {
+    width: 100%;
+    height: 520px;
+    background-color: #FFC543;
+}
+
+.tab_content {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home img {
+    content: url("./promo.jpg");
+    width: calc(100%/2);
+    margin: 30px;
+}
+
+.home_text {
+    width: calc(100%/2);
+    font-size: 18px;
+    color: #707070;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #707070;
+    padding: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #707070;
+    line-height: 50px;
+    gap: 40px;
+}
+
+.contact .item {
+    margin-top: 20px;
+    width: calc(100%/3);
+}
+
+.contact .item p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.contact .item p:nth-child(2) {
+    font-size: 18px;
+    color: #707070;
+}
+
+.footer {
+    font-size: 14px;
+    color: #707070;
+    background-color: #C79483;
+
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+
+
+
+
+
