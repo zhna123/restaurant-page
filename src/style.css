@@ -32,7 +32,7 @@ div.header {
 div.logo {
     width: calc(100%/3);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
